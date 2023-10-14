@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heading tags</title>
+    <link rel="stylesheet" href="Form.css">
+  </head>
+
+  <body>
+    <form class="form">
+        <label class="heading" for="name">Name</label>
+        <input class="heading"type="text" id="name" required placeholder="your name"></br>
+
+        <label class="heading"  for="email">Email Address</label>
+        <input type="email" id="email" required placeholder="your email"></br>
+
+        <label class="heading" for="mobile">Mobile</label>
+        <input type="number" id="mobile" required placeholder="your mobile number"></br>
+
+        <p>Gender</p>
+        <input id="male" type="radio" name="gender" value="male">
+        <label for="male">Male</label></br>
+        <input for="female" type="radio" name="gender" value="female">
+        <label for="female">Female</label></br>
+        <input id="others" type="radio" name="gender" value="not prefer to say">
+        <label for="others">prefer not to say</label>
+        </br>
+        <label class="heading" for="socialLink">Portfolio Link</label>
+        <input type="url" id="socialLink" placeholder="https://"></br>
+
+        <label class="heading"  for="About">About</label>
+        <textarea id="About" rows="10" cols="10" placeholder="Tell me about yourself"></textarea></br>
+        
+        <p>Programming Language</p>
+        <input id="Java" type="checkbox" name="Programming" value="Java">
+        <label for="Java">Java</label>
+        <input id="Python" type="checkbox" name="Programming" value="Python">
+        <label id="Python" for="name">Python</label>
+        <input id="C++" type="checkbox" name="Programming" value="c++">
+        <label for="c++">C++</label>
+        </br>
+        <label class="heading"  for="role">Current role</label>
+        <select id="role">
+             <option value="Student">Student</option>
+             <option value="Professional">Professional</option>
+             <option value="Graduated">Graduated</option>
+        </select></br>
+        
+        <button type="submit">Submit</button> <button type="reset">reset</button>
+    </form>
+  </body>
+</html>
